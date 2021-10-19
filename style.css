@@ -1,0 +1,40 @@
+/* --------------------------- css ----------------------*/
+*{
+   box-sizing: border-box;
+   /* margin: 0;
+   padding: 0; */
+}
+body{
+   font-family: 'Courier New', Courier, monospace;
+   /* line-height: 1.7; */
+}
+.container{
+   position: relative;
+   width: 350px;
+   margin: 100px auto;
+   height: 70vh;
+   background: #dfdbdb;
+   border-radius: 5px;
+}
+.container h1{
+   text-align: center;
+   padding:  20px 0 0 0;
+   color: brown;
+}
+.flex{
+   display: flex;
+   justify-content: center;
+   padding: 10px;
+}
+#textbox{
+   height: 40px;
+   font-size: 20px;
+   outline: none;
+}
+#btn{
+   background: #437ccc;
+   color: #fff;
+   font-weight: bold;
+   font-size: 20px;
+   height: 40px;
+}
